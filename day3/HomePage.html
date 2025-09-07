@@ -10,14 +10,22 @@
 <body>
     <h1>Day 3</h1>
     <hr />
-    <p>Today we are going to learn about classes, IDs, Iframes, Javascript integration, File paths, Head and Layout</p>
-
+    <p>Today we are going to learn about classes, IDs, Iframes, Javascript integration and Layout</p>
+    <br />
     <p> If you want to see the page about Classes, IDs and iframes then <a href="SecondPage.html">click here</a></p>
+    <p> If you want to see the page about Layout then <a href="ThirdPage.html">click here</a></p>
     <br />
-    <p> If you want to see the page about Javascript integration and File paths then <a href="SecondPage.html">click here</a></p>
-    <br />
-    <p> If you want to see the page about Head and Layout then <a href="SecondPage.html">click here</a></p>
-    <br />
+    <hr />
+    <button type="button" onclick="myFunction()">Click Me!</button>
+
+    <script>
+        function myFunction() {
+            document.getElementById("text").innerHTML = "You pressed it!!";
+        }
+    </script>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+    <p id="text">This will chnage if you press the button</p>
     <hr />
     <a href="C:\Users\Delyan\OneDrive\Documents\GitHub\HTML-Projects\Main Page.html">Go to Main page</a>
 </body>

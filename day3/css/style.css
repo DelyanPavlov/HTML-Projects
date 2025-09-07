@@ -9,7 +9,6 @@ h1 {
 
 h2 {
     color: lightgray;
-
 }
 
 p, ol {
@@ -17,15 +16,15 @@ p, ol {
     font-size: 16px;
 }
 
-a{
+a {
     color: mediumpurple;
 }
 
-a:hover{
-    color: deeppink;
-}
+    a:hover {
+        color: deeppink;
+    }
 
-table{
+table {
     color: white;
     width: 100%;
     height: 50%;
@@ -37,7 +36,7 @@ th, td {
     border: 1px solid white;
     border-collapse: collapse;
     text-align: center;
-    padding:10px;
+    padding: 10px;
 }
 
 tr:nth-child(odd) {
@@ -55,4 +54,44 @@ div {
     border: 2px inset white;
     margin: 20px;
     padding: 10px;
+}
+
+
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+nav {
+    flex: 1;
+    float: left;
+    width: 25%;
+    background: rgb(56, 68, 77);
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    background: rgb(29, 42, 53);
+    flex: 3;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
 }
