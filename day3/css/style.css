@@ -62,7 +62,7 @@ section {
     display: flex;
 }
 
-header {
+header, footer {
     background-color: #666;
     padding: 30px;
     text-align: center;
@@ -76,6 +76,7 @@ nav {
     width: 25%;
     background: rgb(56, 68, 77);
     padding: 20px;
+    font-size:22px;
 }
 
 nav ul {
