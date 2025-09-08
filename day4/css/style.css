@@ -1,10 +1,12 @@
 body {
     background-color: rgb(51, 51, 51);
+    font-size: 1vw;
 }
 
 h1 {
     color: lightgray;
     text-align: center;
+    padding: 10px;
 }
 
 h2 {
@@ -24,38 +26,6 @@ a {
         color: deeppink;
     }
 
-table {
-    color: white;
-    width: 100%;
-    height: 50%;
-    border-spacing: 20px;
-    border: 3px dotted white;
-}
-
-th, td {
-    border: 1px solid white;
-    border-collapse: collapse;
-    text-align: center;
-    padding: 10px;
-}
-
-tr:nth-child(odd) {
-    background-color: black;
-}
-
-div {
-    width: 50%;
-    margin: auto;
-}
-
-.Food {
-    color: orange;
-    background-color: darkgoldenrod;
-    border: 2px inset white;
-    margin: 20px;
-    padding: 10px;
-}
-
 
 section {
     display: -webkit-flex;
@@ -64,24 +34,22 @@ section {
 
 header, footer {
     background-color: #666;
-    padding: 30px;
+    padding: 5px;
+    width: 100%;    
+    height 10%;
     text-align: center;
-    font-size: 32px;
+    font-size: 25px;
     color: white;
 }
 
 nav {
     flex: 1;
     float: left;
-    width: 25%;
+    width: 100%;
+    height: 80%;
     background: rgb(56, 68, 77);
     padding: 20px;
     font-size:22px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
 }
 
 article {
@@ -95,4 +63,8 @@ article {
         -webkit-flex-direction: column;
         flex-direction: column;
     }
+}
+
+nav, footer, header {
+    font-size: 1.2vw;
 }
